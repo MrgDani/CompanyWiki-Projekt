@@ -6,5 +6,19 @@
   },
   "devDependencies": {
     "concurrently": "^9.0.0"
-  }
+  },
+  "version": "1.0.0",
+  "description": "Minimal Notion-like Unternehmenswiki.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrgDani/CompanyWiki-Projekt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrgDani/CompanyWiki-Projekt/issues"
+  },
+  "homepage": "https://github.com/MrgDani/CompanyWiki-Projekt#readme"
 }
