@@ -5,7 +5,9 @@
     "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\""
   },
   "devDependencies": {
-    "concurrently": "^9.0.0"
+    "@types/express": "^5.0.3",
+    "concurrently": "^9.0.0",
+    "ts-node-dev": "^2.0.0"
   },
   "version": "1.0.0",
   "description": "Minimal Notion-like Unternehmenswiki.",
@@ -20,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/MrgDani/CompanyWiki-Projekt/issues"
   },
-  "homepage": "https://github.com/MrgDani/CompanyWiki-Projekt#readme"
+  "homepage": "https://github.com/MrgDani/CompanyWiki-Projekt#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
